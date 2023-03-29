@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/stage.css">
+    <link rel="stylesheet" href="../../scss/styles.html">
+    <link rel="stylesheet" href="../../scss/projet.html">
+    <!-- =====Icon===== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../img/selfie pro.jpg">
+    <!-- =====BOX ICONS===== -->
+    <link href='../../../../cdn.jsdelivr.net/npm/boxicons%402.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Concours des vins - Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="../../../index.html" class="nav__logo">KOKOU Cédric</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../../../index.html" class="nav__link ">Accueil</a></li>
+                    <li class="nav__item"><a href="../bts.html" class="nav__link">BTS SIO</a></li>
+                    <li class="nav__item"><a href="../projet.html" class="nav__link active">Projets</a></li>
+                    <li class="nav__item"><a href="../stage.html" class="nav__link ">Stages</a></li>
+                    <li class="nav__item"><a href="../certification.html" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="../veille.html" class="nav__link">Veilles</a></li>
+                    <li class="nav__item"><a href="../../../index.html" class="nav__link">A propos</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== PRESENTATION ENT  =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Présentation</h2>
+
+            <div class="about__container bd-grid">
+                <div>
+
+                    <p class="about__text">
+                        Dans le cadre d'un concours organisé par <b>l’Union des Œnologues du Val de Loire</b>, les
+                        producteurs
+                        de vin sont évalués selon la qualité gustative de leur production. Le concours est ouvert à
+                        l’ensemble des vins du Val de Loire produits ou commercialisés par les viticulteurs, les caves
+                        coopératives et les négociants.<br>
+
+
+                    </p>
+
+                </div>
+                <div class="about__img">
+                    <img src="../../img/cdv.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!--===== CONTEXTE  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Contexte</h2>
+           <div class=" bd-grid">
+
+                <p class="about__text">
+                    <br><br>
+                    Les récompenses (Or, Argent, Bronze) sont attribuées par un jury composé de professionnels et
+                    d’amateurs éclairés et présidé par un œnologue, selon un protocole de dégustation rigoureux.
+                    Lors de la dégustation, chaque membre du jury attribue une note à chaque vin pouvant aller de 0
+                    à 100.<br>
+                    <br>
+                    A l’heure actuelle, la gestion du concours ne donne pas entière satisfaction. Le président de
+                    l’Union des Œnologues du Val de Loire souhaite une application web qui permettra aux membres du
+                    jury de saisir leurs notes. Le palmarès du concours pourra être consulté à partir de
+                    l’application. Dans un premier temps, on ne gère pas l’historique des concours. Donc la base de
+                    données ne contiendra que les informations du concours de l’année en cours.
+                    <br><br><br><br>
+                </p>
+                <div class="about__img">
+                    <img src="../../img/Projet/CDV/concours_des_vins.png" alt="">
+                </div>
+                <p class="about__text">
+                    <br><br>
+                    Ce projet suit une gestion de projet agile comme vu dans MilleNuits.<br> <br>
+                    Pour respecter cette méthodologie, on utilise des applications comme BitBucket.<br>
+                    Bitbucket est un service web d'hébergement et de gestion de développement logiciel utilisant le
+                    logiciel de gestion de versions Git (et par le passé également le logiciel Mercurial). Git est un
+                    logiciel de gestion de versions décentralisé.<br><br>
+                    Sur BitBucket, nous pouvons déposé un projet. Nous avons donc déposer la structure de l'application
+                    pour pouvoir commencer notre travail collaboratif.
+                    BitBucket permet, dans un premier temps, de créer des branches. Il existe une première branche
+                    "Master" qui est la branche principale qui sera récupérée lors de la fin du projet. Pour ajouter du
+                    code dans la branche master, il faut de préférence créer une autre branche afin que la branche
+                    master ne possède aucun souci. Tant que les tests ne sont pas réalisés, il est déconseillé d'envoyer
+                    le code réaliser sur une autre branche dans la branche master.<br><br>
+                <div class="" style="width:55vw ; height:30vw;">
+                    <img src="../../img/Projet/CDV/branche.png" alt="">
+                </div>
+                Comme vous le voyez ici, nous avons décidé de réaliser une branche par sprint.<br><br>
+                Ensuite, nous pouvons travailler de notre côté sur notre mission afin de faire avancer le projet.
+                Lorsque la mission est testé et terminé, nous pouvons réaliser des "commit". Les commit sont les
+                assemblements des branches pour tout ajuster sur la branche master.
+                <div class="" style="width:55vw ; height:30vw; padding-top: 4vw;">
+                    <img src="../../img/Projet/CDV/commit.png" alt="">
+                </div>
+                <br><br><br><br>
+                </p>
+            </div>
+            <div class=" bd-grid">
+
+                <p class="about__text">
+                    <br><br>
+                    Pour suivre l'avancement du projet nous utilisons Jira.
+                    <br><br>
+                    Jira est un système de suivi de bugs, de gestion des incidents et de gestion de projets développé
+                    par Atlassian et publié pour la première fois en 2002. Il propose des solutions à la fois à
+                    destination des développeurs et des intervenants non développeurs.
+                    <br><br>
+                    Jira nous a permis de réaliser la gestion des sprints. Dans un premier temps, nous avons mis chaque
+                    mission de développement dans un sprint afin de pouvoir mettre en place un tableau de gestion de
+                    projets par sprint.
+                </p>
+                <div class="" style="width:55vw ; height:30vw; padding-top: 4vw;">
+                    <img src="../../img/Projet/CDV/jirabacklog.png" alt="">
+                </div>
+
+                <br><br><br><br>
+
+            </div>
+        </section>
+        <!--===== Environnement  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Environnement</h2>
+
+            <div class="work__container bd-grid"
+                style="grid-template-columns: repeat(3,1fr); column-gap: opx; margin-right:0px;">
+                <a class="work__img" style="width:10vw ; height:10vw; padding: 1vw;">
+                    <img src="../../img/Outils/netbeans.png" alt="">
+
+                </a>
+
+                <a class="work__img" style="width:10vw ; height:10vw; padding-top: 2vw;">
+                    <img src="../../img/Outils/PHP.png" alt="">
+                </a>
+
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/Mysql.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw; padding-top: 1vw;">
+                    <img src="../../img/Outils/mariadb.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/xampp.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/codeIgniter.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw; padding-top: 1vw;">
+                    <img src="../../img/Outils/bootstrap.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/bitbucket.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/jira.png" alt="">
+                </a>
+
+            </div>
+        </section>
+        <!--===== COMPETENCE  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Compétence</h2>
+            <br><br>
+
+            <div class=" bd-grid">
+
+                <div class="table">
+                    <div class="table-header">
+                        <div class="header__item"><a id="name" class="filter__link">Compétences</a></div>
+                        <div class="header__item"><a id="wins" class="filter__link filter__link--number">Gérer le
+                                patrimoine informatique</a></div>
+                        <div class="header__item"><a id="draws" class="filter__link filter__link--number">Répondre aux
+                                incidents et aux demandes d’assistance et d’évolution</a></div>
+                        <div class="header__item"><a id="losses" class="filter__link filter__link--number">Développer la
+                                présence en ligne de l’organisation</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Travailler en
+                                mode projet</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Mettre à
+                                disposition des utilisateurs un service informatique</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Organiser son
+                                développement professionnel</a></div>
+                    </div>
+                    <div class="table-content"><br>
+                        <div class="table-row">
+
+                            <div class="table-data">Formation CodeIgniter 4
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                        </div>
+                        <br>
+                        <div class="table-row">
+                            <div class="table-data">Developpement du site web Concours des vins en HTML PHP
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                        </div>
+                        <br>
+                        <div class="table-row">
+                            <div class="table-data">Mise en place du site Concours des vins sur un serveur de production
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                        </div>
+                        <br>
+                        <div class="table-row">
+                            <div class="table-data">Phase de tests avec des rapports de tests
+
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!--===== MISSION  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Mission</h2>
+
+            <div class=" bd-grid">
+
+                <p class="about__text">
+
+                    <br> <br><br> <br>
+                    <b>Mission authentification</b><br> <br>
+
+                    Au lancement de l’application, une page d’accueil est affichée. Sa barre de menu permet de se
+                    connecter. Il existe deux types de logins différents, soit le president ou les jurés. Ces logins
+                    offrent
+                    des fonctionnalités différentes.<br><br>
+                    Une fois connecté en tant que juré, le menu propose la saisie des notes et la consultation des notes
+                    déjà attribuées.<br><br>
+                <div class="" style="width:55vw ; height:5vw;">
+                    <img src="../../img/Projet/CDV/menu_jure.png" alt="">
+                </div>
+
+                Une fois connecté en tant que président, le menu propose l’ouverture du concours s'il n'y a pas de
+                concours actif ou alors la consultation des notes attribuées par les jurés, la clôture du concours
+                et
+                le compte-rendu du concours.<br><br><br><br><br><br>
+                <div class="" style="width:55vw ; height:9vw; padding-top: 4vw;">
+                    <img src="../../img/Projet/CDV/menu_president.png" alt="">
+                </div>
+                <div class="" style="width:55vw ; height:5vw;">
+                    <img src="../../img/Projet/CDV/menu_president_ouvrir_concours.png" alt="">
+                </div>
+                Dans tous les cas, le login de la personne connectée est affiché dans la barre de menu et la
+                déconnexion est proposée.
+                </p>
+                <p class="about__text">
+                    <br> <br><br> <br>
+                    <b>Mission gestion du concours</b><br> <br>
+
+                    Une fois connecté en tant que président, le menu propose l’ouverture du concours, la consultation
+                    des notes attribuées par les jurés, la clôture du concours, le compte-rendu du concours. L’item «
+                    ouverture du concours » sera actif si aucune ligne n’est présente dans la table « concours ».<br>
+                    <br>
+
+
+                    Pour l’ouverture du concours avant le lancement d’un nouveau concours, les données du concours
+                    précédant sont sauvegardées par
+                    une procédure automatique (hors contexte) et la liste des vins présentés par les producteurs est
+                    mise à jour (hors contexte).<br>
+                    Le président saisit les informations du concours qui va débuter notamment le nom du concours, la
+                    date d’ouverture, prévisionnel de clôture et de parution des résultats. La consultation de toutes
+                    les notes attribuées. Une liste des notes sera affichée par vin. Le nom du juré et la note attribuée
+                    seront affichés.<br><br>
+
+                    Pour la clôture du concours un classement des vins est effectué en fonction de leurs notes : <br>
+                    • Pour chaque vin, une moyenne des notes reçues est alors calculée.<br>
+                    • Chaque vin dont la moyenne se situe entre 70 et 100 se voit attribuer une médaille d'Or ou
+                    d'Argent ou de Bronze en fonction de la tranche dans laquelle se situe la moyenne.<br>
+                    • L’état du concours devient clôturé.<br><br>
+
+
+                    Pour le compte-rendu du concours qui est au plus tard deux mois après le concours, le président doit
+                    transmettre à la direction régionale des
+                    entreprises, de la concurrence, de la consommation, du travail et de l'emploi de la région dans
+                    laquelle se déroule le concours un compte rendu comportant notamment : <br>
+                    • le nombre de vins présentés au concours <br>
+                    • le nombre de vins primés par type de médaille<br>
+                    • le pourcentage de vins primés par rapport au nombre de vins présentés..<br>
+
+                <div class="" style="width:55vw ; height:25vw; padding-top: 4vw; ">
+                    <img src="../../img/Projet/CDV/page_ouverture_concours.png" alt="">
+                </div>
+                </p>
+                <p class="about__text">
+                    <br> <br><br> <br>
+                    <b> Mission attribution des notes</b><br> <br>
+
+
+                    Chaque membre du jury authentifié peut saisir ses notes lors de la dégustation. A tout moment, il
+                    pourra consulter ses notes déjà attribuées. Une fois connecté en tant que juré, le menu propose la
+                    saisie des notes et la consultation des notes déjà attribuées.<br><br>
+
+
+                    Pour la saisie des notes par les jurés, il devra sélectionner le producteur. La liste des vins du
+                    producteur non encore notés par ce
+                    juré est alors proposée. Après avoir sélectionné un vin, le juré attribue sa note entre 0 et 100. La
+                    saisie des notes ne sera plus possible lorsque l’état du concours est clôturé.<br><br>
+
+
+                    Pour la consultation des notes, une liste des vins notés par le juré connecté est affichée. Elle
+                    comportera le nom commercial du
+                    vin, le nom du producteur ainsi que la note.
+                <div class="" style="width:55vw ; height:25vw; padding-top: 4vw; ">
+                    <img src="../../img/Projet/CDV/saisie_des_notes.png" alt="">
+                </div>
+                <div class="" style="width:55vw ; height:40vw; padding-top: 4vw; ">
+                    <img src="../../img/Projet/CDV/liste_producteurs.png" alt="">
+                </div>
+                </p>
+                <p class="about__text">
+                    <br> <br><br> <br>
+                    <b>Mission affichage du palmarès</b><br> <br>
+
+
+
+                    L'affichage du palmarès par les internautes se fait à partir de la date d'affichage des résultats,
+                    le palmarès sera accessible à tous les internautes.
+                    La page d'accueil permettra aux internautes d'afficher le palmarès avec la liste des lauréats. Le
+                    palmarès sera affiché trié par médaille, producteur, appellation, couleur, millésime.<br><br>
+
+
+                    Le filtrage du palmarès par les internautes offre la possibilité de filtrer la liste en
+                    sélectionnant une appellation et/ou une
+                    médaille et/ou un producteur spécifique.
+                <div class="" style="width:55vw ; height:15vw; padding-top: 4vw; ">
+                    <img src="../../img/Projet/CDV/Resultat.png" alt="">
+                </div>
+                </p>
+            </div>
+        </section>
+
+        <!--=====  DOC  =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Documentations</h2>
+
+            <div class="about__container bd-grid ">
+
+                <div class="about__img">
+                    <div class="about__containerBtn ">
+                        <a href="../../pdf/projet/cdv/DocTech_d%c3%83%c2%a9ploiement_Application_cdv.html"
+                            class="button">DEPLOIEMENT APPLICATION</a>
+                    </div>
+                </div>
+                <div class="about__img">
+                    <div class="about__containerBtn ">
+                        <a href="../../pdf/projet/cdv/Rapport%20de%20tests_cdv.pdf" class="button">RAPPORT DE TESTS</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/corentin-pihij-1605621a4/" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/corentin_phj/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/C0rentin_P" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="../../pdf/CV%20PIHIJ%20Corentin%20240322.pdf" class="footer__icon"><i class='bx bx-file-blank'></i></a>
+        </div>
+        <p class="footer__copy">&#169; PIHIJ Corentin</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="../../js/main.js"></script>
+</body>
+
+
+</html>

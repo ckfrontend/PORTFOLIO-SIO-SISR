@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<!-- Mirrored from corentin-pihij.com/assets/html/projet/milleNuits.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Mar 2023 17:19:56 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/stage.css">
+    <link rel="stylesheet" href="../../scss/styles.html">
+    <link rel="stylesheet" href="../../scss/projet.html">
+    <!-- =====Icon===== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../img/LblancBleu.png">
+    <!-- =====BOX ICONS===== -->
+    <link href='../../../../cdn.jsdelivr.net/npm/boxicons%402.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Mille nuits - Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="../../../index.html" class="nav__logo">PIHIJ Corentin</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../../../index.html" class="nav__link ">Accueil</a></li>
+                    <li class="nav__item"><a href="../bts.html" class="nav__link">BTS SIO</a></li>
+                    <li class="nav__item"><a href="../projet.html" class="nav__link active">Projets</a></li>
+                    <li class="nav__item"><a href="../stage.html" class="nav__link ">Stages</a></li>
+                    <li class="nav__item"><a href="../certification.html" class="nav__link">Certifications</a></li>
+                    <li class="nav__item"><a href="../veille.html" class="nav__link">Veilles</a></li>
+                    <li class="nav__item"><a href="../../../index.html" class="nav__link">A propos</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== PRESENTATION ENT  =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Présentation</h2>
+
+            <div class="about__container bd-grid">
+                <div>
+
+                    <p class="about__text">
+                        <b>MILLE NUITS</b> souhaite se doter d’une application Web pour assurer un meilleur suivi des
+                        visites
+                        réalisées auprès des distributeurs (clients) par les commerciaux, élaborer une meilleure
+                        démarche de
+                        communication et mieux répartir les budgets consacrés à l'activité de représentation.
+                    </p>
+
+                </div>
+                <div class="about__img">
+                    <img src="../../img/Logo_mille_nuits.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!--===== CONTEXTE  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Contexte</h2>
+
+            <div class=" bd-grid">
+
+                <p class="about__text">
+                    <br> <br>
+                    Nous sommes chargés de la création du site internet de l'entreprise Millenuits.<br><br>
+                    Afin de réaliser le travail demandé,nous devons réaliser le site en respectant la charte graphique
+                    et en se partageant le travail à 2 personnes (il y a eu un suivi de l'avancement). <br>
+                    Le site a été réalisé en suivant le modèle MVC. <br><br>
+                </p>
+                <div class="about__container bd-grid">
+                    <div>
+
+                        <p class="about__text">
+                            <b>MVC, ou modèle-vue-contrôleur (model-view-controller en anglais)</b>, est ce qu’on
+                            appelle <b>un
+                                modèle d’architecture logicielle</b> . Ce type d’architecture, aujourd’hui très répandu
+                            dans les
+                            projets d’applications web, doit son succès notamment à sa forte maintenabilité et à sa
+                            facilité à
+                            être utilisé en travail collaboratif. il se découpe en trois composantes : le modèle, la vue
+                            et le
+                            contrôleur.
+                        </p>
+
+                    </div>
+                    <div class="about__img">
+                        <img src="../../img/Mod%c3%83%c2%a8le-vue-contr%c3%83%c2%b4leur_(MVC)_-_fr.html" alt="">
+                    </div>
+                </div>
+                <p class="about__text">
+                    <br><br><br><br>
+                    <b>Modèle</b> <br>
+                    Le modèle, ou model, représente les données qui vont être utilisées dans l’application web. C’est
+                    ici que va être stockée la data, et tout ce qui permet de la modifier (getters, setters, etc.), que
+                    ça soit en local en en distant (base de données). <br><br>
+                    <b>Vue</b> <br>
+                    La vue, ou view, c’est l’interface graphique de l’application. C’est via cet élément que vont se
+                    faire les interactions entre l’utilisateur et le code métier. Elle ne contient presque aucune
+                    logique (contrairement à l’architecture concurrente de MVC dont on parlera plus loin), son but est
+                    de construire, à partir de ce que renvoie le serveur, une interface et de l’afficher à
+                    l’utilisateur.<br><br>
+                    <b>Contrôleur</b> <br>
+                    Le contrôleur, ou controller, est l’élément qui contient la logique métier. C’est ici que sont la
+                    plupart des algorithmes, calculs, etc.<br>
+
+                    C’est aussi l’intermédiaire principal entre la vue et le modèle. Par exemple, la vue soumet un
+                    formulaire au contrôleur, qui gère sa validation via du code métier, et demande au modèle de faire
+                    des modifications dans la base de données.<br><br>
+                </p>
+                <p class="about__text">
+                    <br>
+                    Nous avons mis en place une gestion de projet vu que nous sommes deux cela va faciliter la
+                    communication. Pour cela nous avons créé un Trello.<br><br>
+                    Trello est l'outil visuel qui permet à votre équipe de gérer n'importe quel type de projet ou de
+                    flux de travail, ou encore de suivre les tâches. Personnalisez-le en ajoutant des fichiers, des
+                    checklists ou même des règles d'automatisation pour l'adapter aux méthodes de travail de votre
+                    équipe.<br><br>
+                </p>
+
+                <div class="about__container bd-grid">
+                    <div>
+
+                        <p class="about__text">
+                            <a href="https://trello.com/b/N4aRxahU/mille-nuits">Lien vers le Trello</a>
+
+                        </p>
+
+                    </div>
+                    <div class="">
+                        <img src="../../img/Projet/Mille%20nuits%20_%20Trello.png" alt="">
+                    </div>
+                </div>
+                <p class="about__text">
+                    <br><br><br>
+                    Pour la gestion de projet, la méthodologie agile a été choisie. Cette méthodologie se veut souple et adaptée, et place les besoins du client au centre des
+                    priorités du projet.<br><br>
+
+                    Les 12 principes généraux de la méthode sont les suivants :<br><br>
+                    1. Satisfaire le client en priorité<br>
+                    2. Accueillir favorablement les demandes de changement<br>
+                    3. Livrer le plus souvent possible des versions opérationnelles de l’application<br>
+                    4. Assurer une coopération permanente entre le client et l’équipe projet<br>
+                    5. Construire des projets autour de personnes motivées<br>
+                    6. Privilégier la conversation en face à face<br>
+                    7. Mesurer l’avancement du projet en matière de fonctionnalité de l’application<br>
+                    8. Faire avancer le projet à un rythme soutenable et constant<br>
+                    9. Porter une attention continue à l’excellence technique et à la conception<br>
+                    10.Faire simple<br>
+                    11.Responsabiliser les équipes<br>
+                    12.Ajuster à intervalles réguliers son comportement et ses processus pour être plus efficace<br>
+                    <br><br><br><br>
+                    <div class=""  style="width:55vw ; height:20vw; padding-left: 15vw;">
+                        <img src="../../img/methodes-Agile.jpg" alt="">
+                    </div>
+                </p>
+
+            </div>
+        </section>
+        <!--===== Environnement  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Environnement</h2>
+
+            <div class="work__container bd-grid"
+                style="grid-template-columns: repeat(3,1fr); column-gap: opx; margin-right:0px; ">
+                <a class="work__img" style="width:10vw ; height:10vw; padding: 1vw;">
+                    <img src="../../img/Outils/netbeans.png" alt="">
+
+                </a>
+
+                <a class="work__img" style="width:10vw ; height:10vw; padding-top: 2vw;">
+                    <img src="../../img/Outils/PHP.png" alt="">
+                </a>
+
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/Mysql.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;  padding-top: 1vw;">
+                    <img src="../../img/Outils/mariadb.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/xampp.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw;">
+                    <img src="../../img/Outils/trello.png" alt="">
+                </a>
+                <a class="work__img" style="width:10vw ; height:10vw; padding-top: 1vw;">
+                    <img src="../../img/Outils/bootstrap.png" alt="">
+                </a>
+
+            </div>
+        </section>
+        <!--===== COMPETENCE  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Compétence</h2>
+            <br><br>
+
+            <div class=" bd-grid">
+
+                <div class="table">
+                    <div class="table-header">
+                        <div class="header__item"><a id="name" class="filter__link">Compétences</a></div>
+                        <div class="header__item"><a id="wins" class="filter__link filter__link--number">Gérer le
+                                patrimoine informatique</a></div>
+                        <div class="header__item"><a id="draws" class="filter__link filter__link--number">Répondre aux
+                                incidents et aux demandes d’assistance et d’évolution</a></div>
+                        <div class="header__item"><a id="losses" class="filter__link filter__link--number">Développer la
+                                présence en ligne de l’organisation</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Travailler en
+                                mode projet</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Mettre à
+                                disposition des utilisateurs un service informatique</a></div>
+                        <div class="header__item"><a id="total" class="filter__link filter__link--number">Organiser son
+                                développement professionnel</a></div>
+                    </div>
+                    <div class="table-content"><br>
+                        <div class="table-row">
+
+                            <div class="table-data">Formation Bootstrap / modèle MVC / méthode agile
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                        </div>
+                        <br>
+                        <div class="table-row">
+                            <div class="table-data">Evolution d'une base de données
+
+                            </div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                        </div>
+                        <br>
+                        <div class="table-row">
+                            <div class="table-data">Developpement du site web Millenuits_CR
+
+                            </div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                            <div class="table-data">✔</div>
+                            <div class="table-data"></div>
+                            <div class="table-data"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!--===== MISSION  =====-->
+        <section class="about section  " id="about">
+            <h2 class="section-title">Mission</h2>
+
+            <div class=" bd-grid">
+
+                <p class="about__text">
+
+
+                    <b>Evolution base de données</b>
+                    <br><br>
+                    Pour commencer nous devons faire évoluer la base de données et réaliser un document de synthèse sur
+                    les modifications apportés.
+                    <br><br><br><br>
+                </p>
+                <div class="">
+                    <img src="../../img/Projet/bd_millenuits.png" alt="">
+                </div>
+
+
+                <p class="about__text">
+                    <br> <br><br> <br>
+                    <b>Création site web</b><br> <br>
+                    Ensuite, nous devons réaliser le site en respectant la charte graphique et en se partageant le
+                    travail.
+                    <br><br><br><br>
+                </p>
+                <div class=""  style="width:50vw ; height:30vw;">
+                    <img src="../../img/Projet/MILLENUITS_site.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--=====  DOC  =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Documentations</h2>
+
+            <div class="about__container bd-grid ">
+
+                <div class="about__img">
+                    <div class="about__containerBtn ">
+                        <a href="../../pdf/projet/milleNuits/Doc_Technique_MILLENUITS_CR.pdf" class="button">GESTION
+                            MDP</a>
+                    </div>
+                </div>
+                <div class="about__img">
+                    <div class="about__containerBtn ">
+                        <a href="../../pdf/projet/milleNuits/Fiche_Technique_millenuits.pdf" class="button">FICHE
+                            TECHNIQUE</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/corentin-pihij-1605621a4/" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/corentin_phj/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/C0rentin_P" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="../../pdf/CV%20PIHIJ%20Corentin%20240322.pdf" class="footer__icon"><i class='bx bx-file-blank'></i></a>
+        </div>
+        <p class="footer__copy">&#169; PIHIJ Corentin</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="../../js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from corentin-pihij.com/assets/html/projet/milleNuits.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Mar 2023 17:21:42 GMT -->
+</html>
