@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 22 Mar 2023 18:16:02 at http://corentin-pihij.com/index.html#home +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://corentin-pihij.com/index.html#home -O1 "C:\Users\ckokou\OneDrive - Autodistribution\Bureau\Portfolio Epreuve E4" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:16:17	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+18:16:17	Warning: 	Retry after error -5 (Unable to get server's address: H�te inconnu. ) at link primary/home (from primary/primary)
+18:17:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): corentin-pihij.com/assets/css/veille.css
+18:17:34	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/home (from primary/primary)
+18:26:58	Warning: 	Retry after error -4 (Incorrect length (336459 Bytes, 405038 expected)) at link corentin-pihij.com/assets/img/veille/rapport2022.png (from corentin-pihij.com/assets/html/veille.html)
+18:27:11	Warning: 	Retry after error -4 (No data (connection closed)) at link corentin-pihij.com/assets/img/veille/assuranceBlockChain.jpg (from corentin-pihij.com/assets/html/veille.html)
+18:27:13	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/home (from primary/primary)
+18:27:13	Warning: 	Retry after error -4 (Incorrect length (1304895 Bytes, 1431968 expected)) at link corentin-pihij.com/assets/pdf/projet/startDev/charteGraphique.pdf (from corentin-pihij.com/assets/html/projet/startDev.html)
+18:27:58	Warning: 	Retry after error -4 (Incorrect length (3866590 Bytes, 4016694 expected)) at link corentin-pihij.com/assets/pdf/projet/startDev/miseCMS.pdf (from corentin-pihij.com/assets/html/projet/startDev.html)
+18:27:58	Error: 	"Not Found" (404) at link corentin-pihij.com/assets/img/ModÃ¨le-vue-contrÃ´leur_(MVC)_-_fr.png (from corentin-pihij.com/assets/html/projet/milleNuits.html)
+18:27:58	Warning: 	Retry after error -4 (Incorrect length (376535 Bytes, 560907 expected)) at link corentin-pihij.com/assets/img/Projet/MILLENUITS_site.png (from corentin-pihij.com/assets/html/projet/milleNuits.html)
+18:27:58	Warning: 	Retry after error -4 (Incorrect length (1305837 Bytes, 1433005 expected)) at link corentin-pihij.com/assets/pdf/projet/milleNuits/Fiche_Technique_millenuits.pdf (from corentin-pihij.com/assets/html/projet/milleNuits.html)
+18:28:19	Error: 	"Not Found" (404) at link corentin-pihij.com/assets/pdf/projet/cdv/DocTech_dÃ©ploiement_Application_cdv.pdf (from corentin-pihij.com/assets/html/projet/cdv.html)
+18:28:19	Warning: 	Retry after error -4 (Incorrect length (644611 Bytes, 789270 expected)) at link corentin-pihij.com/assets/pdf/projet/cdv/Rapport de tests_cdv.pdf (from corentin-pihij.com/assets/html/projet/cdv.html)
+18:28:23	Warning: 	Retry after error -4 (Incorrect length (377012 Bytes, 422360 expected)) at link corentin-pihij.com/assets/pdf/Service_Informatique_Lacour.pdf (from corentin-pihij.com/assets/html/stage/stage1.html)
+18:28:28	Warning: 	Retry after error -4 (Incorrect length (381384 Bytes, 456590 expected)) at link corentin-pihij.com/assets/img/Stage/PlancheClient.png (from corentin-pihij.com/assets/html/stage/stage2.html)
+18:29:44	Warning: 	Retry after error -4 (Incorrect length (378813 Bytes, 500909 expected)) at link corentin-pihij.com/assets/pdf/VoltairePDF.pdf (from corentin-pihij.com/assets/html/certification/voltaire.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 47 seconds : 150 links scanned, 133 files written (20028842 bytes overall) [19879643 bytes received at 24038 bytes/sec], 275996 bytes transferred using HTTP compression in 25 files, ratio 25%, 3.1 requests per connection
+(4 errors, 13 warnings, 0 messages)
